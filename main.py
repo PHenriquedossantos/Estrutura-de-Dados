@@ -14,6 +14,16 @@ menu = int(input('Digite a opção desejada: '))
 
 if menu == 1:
     vetor_teste = vetor.Vetor(3)
-    vetor_teste.inserir_elemento_posicao(80, 0)
+    #vetor_teste.inserir_elemento_posicao(80, 0)
+    vetor_teste.inserir_elemento_final(10)
+    vetor_teste.inserir_elemento_final(20)
+    vetor_teste.inserir_elemento_final(30)
+    vetor_teste.inserir_elemento_final(30)
+    vetor_teste.inserir_elemento_final(30)
+    vetor_teste.inserir_elemento_final(30)
+    vetor_teste.inserir_elemento_final(30)
+    vetor_teste.inserir_elemento_final(30)
 
     print(vetor_teste.listar_elemento(0))
+    print(vetor_teste.listar_elemento(1))
+    print(vetor_teste.listar_elemento(2))
